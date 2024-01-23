@@ -7,11 +7,23 @@ Este repositório aborda práticas relacionadas à troca de dados entre a lingua
 Antes de iniciar a aplicação, é essencial ter o módulo de conexão JDBC, as credenciais de acesso ao Sistema Gerenciador de Banco de Dados (SGBD) e o banco de dados devidamente configurado. Esses elementos são fundamentais para garantir uma conexão eficaz e a operação adequada da aplicação.
 
 1. Download JDBC Connector
-URL: https://dev.mysql.com/downloads/connector/j/
+URL: https://dev.mysql.com/downloads/connector/j/ <br><br>
+  **1.1 - Passo 1** <br><br>
+     <img src="/ImgTutorial/JDBC Connector/Passo 1.jpeg" width="550"/> <br><br>
+  **1.2 - Passo 2** <br><br>
+     <img src="/ImgTutorial/JDBC Connector/Passo 2.jpeg" width="550"/>
 
 2. Configurando no Intellij
+   **2.1 - Passo 1** <br><br>
+     <img src="/ImgTutorial/Config Intellij/Passo 1.jpeg" width="550"/> <br><br>
+   **2.2 - Passo 2** <br><br>
+     <img src="/ImgTutorial/Config Intellij/Passo 2.jpeg" width="550"/> <br><br>
+   **2.3 - Passo 1** <br><br>
+     <img src="/ImgTutorial/Config Intellij/Passo 1.jpeg" width="550"/> <br><br>
 
 3. Configurando conexão entre Java e BD
+   **5.1 - Detalhes na imagem** <br><br>
+     <img src="/ImgTutorial/Config Java BD/Passo 1.jpeg" width="550"/> <br><br>
 
 ## Aplicação
 
@@ -19,10 +31,10 @@ Após concluir todos os preparativos para a conexão entre Java e o Sistema Gere
 
 ## Estrutura
 
-A classe principal está nomeada como "Application". É nela q o os objetos serão executados. Ela conversa diretamente com a classe "Action" q realiza todas as condições necessárias para se criar um usuário. <br>
-A classe "Link" está responsável por criar a conexão, ou seja, cria a ponte entre o JAVA e o BD. <br>
-A classe "UserPessoa" serve como um pré armazenamento, o qual coleta os dados inseridos para a classe "Action" para ser utilizado mais tarde (Tipo um DTO em Spring Boot). <br>
-A Classe "Message" serve como uma base para mensagens padrão (Ironicamente só possuí uma mensagem padrão kkk). <br>
+- A classe principal está nomeada como "Application". É nela q o os objetos serão executados. Ela conversa diretamente com a classe "Action" q realiza todas as condições necessárias para se criar um usuário. <br>
+- A classe "Link" está responsável por criar a conexão, ou seja, cria a ponte entre o JAVA e o BD. <br>
+- A classe "UserPessoa" serve como um pré armazenamento, o qual coleta os dados inseridos para a classe "Action" para ser utilizado mais tarde (Tipo um DTO em Spring Boot). <br>
+- A Classe "Message" serve como uma base para mensagens padrão (Ironicamente só possuí uma mensagem padrão kkk). <br>
 
 ## Finalização
 
