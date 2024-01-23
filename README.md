@@ -13,15 +13,15 @@ URL: https://dev.mysql.com/downloads/connector/j/ <br><br>
   **1.2 - Passo 2** <br><br>
      <img src="/ImgTutorial/JDBC Connector/Passo 2.jpeg" width="550"/>
 
-2. Configurando no Intellij
+2. Configurando no Intellij <br><br>
    **2.1 - Passo 1** <br><br>
      <img src="/ImgTutorial/Config Intellij/Passo1.jpeg" width="550"/> <br><br>
    **2.2 - Passo 2** <br><br>
      <img src="/ImgTutorial/Config Intellij/Passo2.jpeg" width="550"/> <br><br>
-   **2.3 - Passo 1** <br><br>
-     <img src="/ImgTutorial/Config Intellij/Passo1.jpeg" width="550"/> <br><br>
+   **2.3 - Passo 3** <br><br>
+     <img src="/ImgTutorial/Config Intellij/Passo3.jpeg" width="550"/> <br><br>
 
-3. Configurando conexão entre Java e BD
+3. Configurando conexão entre Java e BD <br><br>
    **5.1 - Detalhes na imagem** <br><br>
      <img src="/ImgTutorial/Config Java BD/passo 1.jpeg" width="550"/> <br><br>
 
