@@ -5,6 +5,7 @@ Este repositório aborda práticas relacionadas à troca de dados entre a lingua
 ## Preparativos
 
 Antes de iniciar a aplicação, é essencial ter o módulo de conexão JDBC, as credenciais de acesso ao Sistema Gerenciador de Banco de Dados (SGBD) e o banco de dados devidamente configurado. Esses elementos são fundamentais para garantir uma conexão eficaz e a operação adequada da aplicação.
+OBS. Caso haja dificuldade no download, existe uma pasta dentro da pasta que possui o códiogo Java que contém o módulo JDBC
 
 1. Download JDBC Connector
 URL: https://dev.mysql.com/downloads/connector/j/ <br><br>
